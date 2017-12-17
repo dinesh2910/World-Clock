@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6B15671D7CCDD3002DB18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B15661D7CCDD3002DB18C /* AppDelegate.swift */; };
+		EC6B156E1D7CCDD3002DB18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6B156C1D7CCDD3002DB18C /* Main.storyboard */; };
+		EC6B15701D7CCDD3002DB18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6B156F1D7CCDD3002DB18C /* Assets.xcassets */; };
+		EC6B15731D7CCDD3002DB18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15711D7CCDD3002DB18C /* LaunchScreen.storyboard */; };
+		EC6B15871D7CCF0B002DB18C /* alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B157B1D7CCF0B002DB18C /* alarm.png */; };
+		EC6B15881D7CCF0B002DB18C /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B157C1D7CCF0B002DB18C /* globe.png */; };
+		EC6B15891D7CCF0B002DB18C /* lap.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B157D1D7CCF0B002DB18C /* lap.png */; };
+		EC6B158A1D7CCF0B002DB18C /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B157E1D7CCF0B002DB18C /* reset.png */; };
+		EC6B158B1D7CCF0B002DB18C /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B157F1D7CCF0B002DB18C /* start.png */; };
+		EC6B158C1D7CCF0B002DB18C /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15801D7CCF0B002DB18C /* stop.png */; };
+		EC6B158D1D7CCF0B002DB18C /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15811D7CCF0B002DB18C /* stopwatch.png */; };
+		EC6B158E1D7CCF0B002DB18C /* timer_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15821D7CCF0B002DB18C /* timer_cancel.png */; };
+		EC6B158F1D7CCF0B002DB18C /* timer_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15831D7CCF0B002DB18C /* timer_pause.png */; };
+		EC6B15901D7CCF0B002DB18C /* timer_resume.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15841D7CCF0B002DB18C /* timer_resume.png */; };
+		EC6B15911D7CCF0B002DB18C /* timer_start.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15851D7CCF0B002DB18C /* timer_start.png */; };
+		EC6B15921D7CCF0B002DB18C /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15861D7CCF0B002DB18C /* timer.png */; };
+		EC6B15951D7CCFA4002DB18C /* WorldClockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B15941D7CCFA4002DB18C /* WorldClockTableViewController.swift */; };
+		EC6B15971D7CCFD1002DB18C /* TimeZonesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B15961D7CCFD1002DB18C /* TimeZonesTableViewController.swift */; };
+		EC6B15991D7CD04C002DB18C /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B15981D7CD04C002DB18C /* WorldClockTableViewCell.swift */; };
+		ECA298A51D7F80DD003B4389 /* AlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA298A41D7F80DD003B4389 /* AlarmTableViewController.swift */; };
+		ECA298A71D7F80F3003B4389 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA298A61D7F80F3003B4389 /* AddAlarmViewController.swift */; };
+		ECA298A91D7F8111003B4389 /* AddAlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA298A81D7F8111003B4389 /* AddAlarmTableViewCell.swift */; };
+		ECA298AB1D7F8BF0003B4389 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA298AA1D7F8BF0003B4389 /* HelperClass.swift */; };
+		ECA5F8EF1D80108D00D6DEEC /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5F8EE1D80108D00D6DEEC /* StopwatchViewController.swift */; };
+		ECA5F8F21D80347000D6DEEC /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5F8F11D80347000D6DEEC /* TimerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC6B15631D7CCDD3002DB18C /* World Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6B15661D7CCDD3002DB18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC6B156D1D7CCDD3002DB18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6B156F1D7CCDD3002DB18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6B15721D7CCDD3002DB18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6B15741D7CCDD3002DB18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6B157B1D7CCF0B002DB18C /* alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarm.png; sourceTree = "<group>"; };
+		EC6B157C1D7CCF0B002DB18C /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		EC6B157D1D7CCF0B002DB18C /* lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lap.png; sourceTree = "<group>"; };
+		EC6B157E1D7CCF0B002DB18C /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		EC6B157F1D7CCF0B002DB18C /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		EC6B15801D7CCF0B002DB18C /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		EC6B15811D7CCF0B002DB18C /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
+		EC6B15821D7CCF0B002DB18C /* timer_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer_cancel.png; sourceTree = "<group>"; };
+		EC6B15831D7CCF0B002DB18C /* timer_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer_pause.png; sourceTree = "<group>"; };
+		EC6B15841D7CCF0B002DB18C /* timer_resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer_resume.png; sourceTree = "<group>"; };
+		EC6B15851D7CCF0B002DB18C /* timer_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer_start.png; sourceTree = "<group>"; };
+		EC6B15861D7CCF0B002DB18C /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
+		EC6B15941D7CCFA4002DB18C /* WorldClockTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewController.swift; sourceTree = "<group>"; };
+		EC6B15961D7CCFD1002DB18C /* TimeZonesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeZonesTableViewController.swift; sourceTree = "<group>"; };
+		EC6B15981D7CD04C002DB18C /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
+		ECA298A41D7F80DD003B4389 /* AlarmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewController.swift; sourceTree = "<group>"; };
+		ECA298A61D7F80F3003B4389 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		ECA298A81D7F8111003B4389 /* AddAlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmTableViewCell.swift; sourceTree = "<group>"; };
+		ECA298AA1D7F8BF0003B4389 /* HelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		ECA5F8EE1D80108D00D6DEEC /* StopwatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		ECA5F8F11D80347000D6DEEC /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		ECE024FB1D7E045E0091FFC5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6B15601D7CCDD3002DB18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6B155A1D7CCDD3002DB18C = {
+			isa = PBXGroup;
+			children = (
+				EC6B15651D7CCDD3002DB18C /* World Clock */,
+				EC6B15641D7CCDD3002DB18C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6B15641D7CCDD3002DB18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6B15631D7CCDD3002DB18C /* World Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6B15651D7CCDD3002DB18C /* World Clock */ = {
+			isa = PBXGroup;
+			children = (
+				ECA5F8F01D80345800D6DEEC /* Timer */,
+				ECA5F8ED1D80107500D6DEEC /* Stopwatch */,
+				ECA298A31D7F80BA003B4389 /* Alarm */,
+				EC6B15931D7CCF74002DB18C /* World Clock */,
+				EC6B157A1D7CCEEE002DB18C /* Images */,
+				EC6B15661D7CCDD3002DB18C /* AppDelegate.swift */,
+				EC6B156C1D7CCDD3002DB18C /* Main.storyboard */,
+				EC6B156F1D7CCDD3002DB18C /* Assets.xcassets */,
+				EC6B15711D7CCDD3002DB18C /* LaunchScreen.storyboard */,
+				EC6B15741D7CCDD3002DB18C /* Info.plist */,
+				ECE024FB1D7E045E0091FFC5 /* MyPlayground.playground */,
+			);
+			path = "World Clock";
+			sourceTree = "<group>";
+		};
+		EC6B157A1D7CCEEE002DB18C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EC6B157B1D7CCF0B002DB18C /* alarm.png */,
+				EC6B157C1D7CCF0B002DB18C /* globe.png */,
+				EC6B157D1D7CCF0B002DB18C /* lap.png */,
+				EC6B157E1D7CCF0B002DB18C /* reset.png */,
+				EC6B157F1D7CCF0B002DB18C /* start.png */,
+				EC6B15801D7CCF0B002DB18C /* stop.png */,
+				EC6B15811D7CCF0B002DB18C /* stopwatch.png */,
+				EC6B15821D7CCF0B002DB18C /* timer_cancel.png */,
+				EC6B15831D7CCF0B002DB18C /* timer_pause.png */,
+				EC6B15841D7CCF0B002DB18C /* timer_resume.png */,
+				EC6B15851D7CCF0B002DB18C /* timer_start.png */,
+				EC6B15861D7CCF0B002DB18C /* timer.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EC6B15931D7CCF74002DB18C /* World Clock */ = {
+			isa = PBXGroup;
+			children = (
+				EC6B15941D7CCFA4002DB18C /* WorldClockTableViewController.swift */,
+				EC6B15961D7CCFD1002DB18C /* TimeZonesTableViewController.swift */,
+				EC6B15981D7CD04C002DB18C /* WorldClockTableViewCell.swift */,
+			);
+			name = "World Clock";
+			sourceTree = "<group>";
+		};
+		ECA298A31D7F80BA003B4389 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				ECA298A41D7F80DD003B4389 /* AlarmTableViewController.swift */,
+				ECA298A61D7F80F3003B4389 /* AddAlarmViewController.swift */,
+				ECA298A81D7F8111003B4389 /* AddAlarmTableViewCell.swift */,
+				ECA298AA1D7F8BF0003B4389 /* HelperClass.swift */,
+			);
+			name = Alarm;
+			sourceTree = "<group>";
+		};
+		ECA5F8ED1D80107500D6DEEC /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				ECA5F8EE1D80108D00D6DEEC /* StopwatchViewController.swift */,
+			);
+			name = Stopwatch;
+			sourceTree = "<group>";
+		};
+		ECA5F8F01D80345800D6DEEC /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				ECA5F8F11D80347000D6DEEC /* TimerViewController.swift */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6B15621D7CCDD3002DB18C /* World Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6B15771D7CCDD3002DB18C /* Build configuration list for PBXNativeTarget "World Clock" */;
+			buildPhases = (
+				EC6B155F1D7CCDD3002DB18C /* Sources */,
+				EC6B15601D7CCDD3002DB18C /* Frameworks */,
+				EC6B15611D7CCDD3002DB18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Clock";
+			productName = "World Clock";
+			productReference = EC6B15631D7CCDD3002DB18C /* World Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6B155B1D7CCDD3002DB18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Muhammad Haroon";
+				TargetAttributes = {
+					EC6B15621D7CCDD3002DB18C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EEGRNAPU89;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "World Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6B155A1D7CCDD3002DB18C;
+			productRefGroup = EC6B15641D7CCDD3002DB18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6B15621D7CCDD3002DB18C /* World Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6B15611D7CCDD3002DB18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6B158E1D7CCF0B002DB18C /* timer_cancel.png in Resources */,
+				EC6B15901D7CCF0B002DB18C /* timer_resume.png in Resources */,
+				EC6B158A1D7CCF0B002DB18C /* reset.png in Resources */,
+				EC6B15881D7CCF0B002DB18C /* globe.png in Resources */,
+				EC6B158C1D7CCF0B002DB18C /* stop.png in Resources */,
+				EC6B158B1D7CCF0B002DB18C /* start.png in Resources */,
+				EC6B15731D7CCDD3002DB18C /* LaunchScreen.storyboard in Resources */,
+				EC6B15871D7CCF0B002DB18C /* alarm.png in Resources */,
+				EC6B15921D7CCF0B002DB18C /* timer.png in Resources */,
+				EC6B15891D7CCF0B002DB18C /* lap.png in Resources */,
+				EC6B158F1D7CCF0B002DB18C /* timer_pause.png in Resources */,
+				EC6B15911D7CCF0B002DB18C /* timer_start.png in Resources */,
+				EC6B15701D7CCDD3002DB18C /* Assets.xcassets in Resources */,
+				EC6B156E1D7CCDD3002DB18C /* Main.storyboard in Resources */,
+				EC6B158D1D7CCF0B002DB18C /* stopwatch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6B155F1D7CCDD3002DB18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA5F8F21D80347000D6DEEC /* TimerViewController.swift in Sources */,
+				ECA298A71D7F80F3003B4389 /* AddAlarmViewController.swift in Sources */,
+				EC6B15971D7CCFD1002DB18C /* TimeZonesTableViewController.swift in Sources */,
+				ECA298AB1D7F8BF0003B4389 /* HelperClass.swift in Sources */,
+				ECA5F8EF1D80108D00D6DEEC /* StopwatchViewController.swift in Sources */,
+				ECA298A51D7F80DD003B4389 /* AlarmTableViewController.swift in Sources */,
+				EC6B15671D7CCDD3002DB18C /* AppDelegate.swift in Sources */,
+				EC6B15951D7CCFA4002DB18C /* WorldClockTableViewController.swift in Sources */,
+				ECA298A91D7F8111003B4389 /* AddAlarmTableViewCell.swift in Sources */,
+				EC6B15991D7CD04C002DB18C /* WorldClockTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC6B156C1D7CCDD3002DB18C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6B156D1D7CCDD3002DB18C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6B15711D7CCDD3002DB18C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6B15721D7CCDD3002DB18C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6B15751D7CCDD3002DB18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC6B15761D7CCDD3002DB18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6B15781D7CCDD3002DB18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EEGRNAPU89;
+				INFOPLIST_FILE = "World Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinesh-danda.World-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC6B15791D7CCDD3002DB18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EEGRNAPU89;
+				INFOPLIST_FILE = "World Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinesh-danda.World-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "World Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6B15751D7CCDD3002DB18C /* Debug */,
+				EC6B15761D7CCDD3002DB18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6B15771D7CCDD3002DB18C /* Build configuration list for PBXNativeTarget "World Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6B15781D7CCDD3002DB18C /* Debug */,
+				EC6B15791D7CCDD3002DB18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6B155B1D7CCDD3002DB18C /* Project object */;
+}
